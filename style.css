@@ -1,0 +1,66 @@
+
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Selector por etiqueta*/
+h1{
+    color: blueviolet;
+}
+/*Selector por clase*/
+.title{
+    color: aqua;
+}
+/*Selector por ID*/
+#unique-title{
+    color: blue;
+}
+.container-1{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.container-2{
+    background-color:blue;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+p{
+    color: darkgoldenrod;
+}
+div p{
+    color: cornflowerblue;
+}
+.container-2 p{
+    color: chartreuse;
+}
+h1, h2, h3, h4{
+    color: brown;
+}
+.special-image{
+    width: 450px;
+    border-radius: 100%;
+    transition: 250ms;
+}
+.special-image:hover{
+    transition: 150ms;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 250ms;
+}
+.my-btn{
+    background-color: darkcyan;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    transition: 150ms;
+}
+.my-btn:hover{
+    background-color: blue;
+    color:aliceblue;
+    transition: 150ms;
+    border: none;
+}
